@@ -3,7 +3,7 @@ xkb_symbols "ergo_arabic" {
     key.type[Group1]="FOUR_LEVEL";
 
 
-    key <TLDE> {  [     grave,	asciitilde, NoSymbol, NoSymbol]}; ‎
+    key <TLDE> {  [     grave,	asciitilde, NoSymbol, NoSymbol ]}; ‎
 
     key <AE01> {  [               1,               exclam,                  Arabic_1,            NoSymbol ]};  // 1 !     ١
     key <AE02> {  [               2,                   at,                  Arabic_2,            NoSymbol ]};  // 2 @     ٢
