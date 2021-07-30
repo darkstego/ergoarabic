@@ -1,0 +1,54 @@
+* ErgoArabic Keyboard Layout
+
+  This project provides a more ergonomic and sensible Arabic keyboard Layout.
+
+** Why not use the default Arabic layout
+
+   I really dislike default (PC) arabic layout. I feel the layout suffers from several design issues including:
+   - Dedicated key for 'لا'.
+
+This is a remnant of early arabic typewriters where each shape of letter needed its own key. But since computers reshape the letters as you type, there is no need to give letter combinations their own key. There is nothing special about the 'لا'. As far as two letter combinations 'ال' is roughly 8 times more common and other combinations like 'ية' occurs just as frequently.
+
+There are other layouts that remove the unnecessary 'لا' like (mac) and (OLPC). But they suffer from some of the other issues that
+
+- Poor Ergonomics
+
+  In the normal Arabic layout, many keys are too far from the center of the keyboard. Common letters like 'د' and 'ج' are at outer edge of the typing area and 'ذ' is in its own timezone. This requires a lot of pinkie stretching while typing that increases the risk of RSI.
+
+
+- Symbol shuffling
+
+  A lot of symbols like brackets, grave, tilde are shuffled around from their usual positions in the Arabic keyboard. This makes it unnecessarily more difficult to learn the keyboard layout if you already know the normal English QWERTY layout.
+
+
+
+** Why this layout
+
+*** Better Ergonomics.
+    The entire layout falls in the middle 30 keys, reducing the need to stretch in order to reach keys. Commonly used letters like 'و' are moved from the bottom row to the more ergonomically friendly top row. While some letters are moved to the shift set, they are infrequently used ones, combined they are less than 2% frequency which is less than use of shift for capitalization in English. 
+
+*** Familiarity
+
+    The layout isn't a huge departure from the PC/Mac layouts. It retains the home row keys that they both share. So learning this layout still makes it relatively easy to use other layouts in places like virtual keyboards on phones. Also, the symbols and punctuation keys are retained from the QWERTY keyboard.
+
+*** Easy to learn
+    The familiarity of this setup, logical pairings of letters and their shift set and keeping the layout to the central 30 keys should make this layout easier to learn than the alternative PC/Mac ones.
+
+*** Completeness
+    This layout provides all the symbols in both PC and Mac Layouts without the need to go to third and fourth levels in the layouts. That includes some symbols only found on the Mac like the Guillemets «» and those only found on PC like multiplication (×) and division (÷). 
+
+
+* How to install
+
+** Linux
+
+
+
+** Windows
+
+*** Easy Method
+
+*** Manual Method
+    Install 
+   
+** Mac

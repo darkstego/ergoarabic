@@ -1,0 +1,61 @@
+xkb_symbols "ergo_arabic" {
+    name[Group1]= "Arabic (ErgoArabic)";
+    key.type[Group1]="FOUR_LEVEL";
+
+
+    key <TLDE> {  [     grave,	asciitilde, NoSymbol, NoSymbol]}; ‎
+
+    key <AE01> {  [               1,               exclam,                  Arabic_1,            NoSymbol ]};  // 1 !     ١
+    key <AE02> {  [               2,                   at,                  Arabic_2,            NoSymbol ]};  // 2 @     ٢
+    key <AE03> {  [               3,           numbersign,                  Arabic_3,            NoSymbol ]};  // 3 #     ٣
+    key <AE04> {  [               4,               dollar,                  Arabic_4,            NoSymbol ]};  // 4 $     ٤
+    key <AE05> {  [               5,              percent,                  Arabic_5,               U2030 ]};  // 5 %     ٥ ‰
+    key <AE06> {  [               6,          asciicircum,                  Arabic_6,            NoSymbol ]};  // 6 ^     ٦
+    key <AE07> {  [               7,            ampersand,                  Arabic_7,            NoSymbol ]};  // 7 &     ٧
+    key <AE08> {  [               8,             asterisk,                  Arabic_8,            NoSymbol ]};  // 8 *     ٨
+    key <AE09> {  [               9,           parenright,                  Arabic_9,            NoSymbol ]};  // 9 )     ٩
+    key <AE10> {  [               0,            parenleft,                  Arabic_0,            NoSymbol ]};  // 0 (      ٠
+    key <AE11> {  [           minus,           underscore,                    endash,               U2011 ]};  // - _     – Non-Breaking-Hyphen
+    key <AE12> {  [           equal,                 plus,                  notequal,               U2248 ]};  // = +     ≠ ≈ 
+
+
+    key <AD01> {  [        Arabic_dal,           Arabic_thal,               NoSymbol,               U2066 ]};  // ‎د‎ ذ       LEFT‑TO‑RIGHT ISOLATE
+    key <AD02> {  [        Arabic_sad,            Arabic_dad,               NoSymbol,               U2067 ]};  // ‎ص‎ ض ‎      RIGHT‑TO‑LEFT ISOLATE
+    key <AD03> {  [       Arabic_theh,          Arabic_damma,               NoSymbol,               U2068 ]};  // ‎ث‎ ‎◌ُ       FIRST STRONG ISOLATE
+    key <AD04> {  [        Arabic_qaf,       Arabic_dammatan,               NoSymbol,               U2069 ]};  // ‎ق‎ ‎◌ٌ       POP DIRECTIONAL ISOLATE
+    key <AD05> {  [        Arabic_feh,         Arabic_shadda,             Arabic_veh,            NoSymbol ]};  // ‎ف‎ ‎ّ     ‎ڤ
+    key <AD06> {  [      Arabic_hamza, Arabic_hamzaunderalef,               NoSymbol,               U202A ]};  // ء‎ ‎إ‎       LEFT-TO-RIGHT-EMBEDDING
+    key <AD07> {  [        Arabic_ain,          Arabic_ghain,               NoSymbol,               U202B ]};  // ‎ع‎ غ       RIGHT-TO-LEFT EMBEDDING
+    key <AD08> {  [         Arabic_ha,              division,               NoSymbol,               U202C ]};  // ‎ه‎ ÷       POP DIRECTIONAL FORMATTING
+    key <AD09> {  [        Arabic_waw,     Arabic_hamzaonwaw,               NoSymbol,            NoSymbol ]};  // ‎و‎ ؤ
+    key <AD10> {  [ Arabic_tehmarbuta,      Arabic_semicolon,               NoSymbol,               U200E ]};  // ‎ة‎ ؛       LEFT-TO-RIGHT MARK
+    key <AD11> {  [      bracketright,            braceright,               NoSymbol,               U200F ]};  // ‎]‎ }     ‎ RIGHT-TO-LEFT MARK
+    key <AD12> {  [       bracketleft,             braceleft,               NoSymbol,               U061C ]};  // ‎[ {       ARABIC LETTER MARK
+
+    key <AC01> {  [      Arabic_sheen,          Arabic_kasra,               NoSymbol,            NoSymbol ]};  // ‎ش‎ ‎◌ِ‎
+    key <AC02> {  [       Arabic_seen,       Arabic_kasratan,               NoSymbol,            NoSymbol ]};  // ‎س‎ ‎◌ٍ‎
+    key <AC03> {  [        Arabic_yeh,          Arabic_fatha,               NoSymbol,            NoSymbol ]};  // ‎ي‎ ◌َ 
+    key <AC04> {  [        Arabic_beh,       Arabic_fathatan,             Arabic_peh,            NoSymbol ]};  // ‎ب‎ ◌ً      ‎پ‎ 
+    key <AC05> {  [        Arabic_lam,    Arabic_maddaonalef,               NoSymbol,            NoSymbol ]};  // ‎ل‎ آ‎
+    key <AC06> {  [       Arabic_alef,    Arabic_hamzaonalef,                  U0671,            NoSymbol ]};  // ‎ا‎ ‎أ     ‎ٱ‎ 
+    key <AC07> {  [        Arabic_teh,        Arabic_tatweel,               NoSymbol,            NoSymbol ]};  // ‎ت‎ ‎ـ‎
+    key <AC08> {  [       Arabic_noon,              multiply,                  U066B,            NoSymbol ]};  // ‎ن‎ ‎×     ‎٫‎
+    key <AC09> {  [       Arabic_meem,                 comma,               NoSymbol,            NoSymbol ]};  // ‎م‎ ,
+    key <AC10> {  [        Arabic_kaf,                 colon,             Arabic_gaf,            NoSymbol ]};  // ‎ك‎ :     ‎گ‎
+    key <AC11> {  [        apostrophe,              quotedbl,                  U27E9,               U200D ]};  // ‎ط‎ "     ⟩ ZWJ
+    key <BKSL> {  [         backslash,                   bar,                  U27E8,               U202F ]};  // \ …     ⟨ NNBSP
+
+    key <AB01> {  [ Arabic_hamzaonyeh,              NoSymbol,                  U203A,            NoSymbol ]};  // ‎ئ‎       ›
+    key <AB02> {  [Arabic_alefmaksura,          Arabic_sukun,                  U2039,            NoSymbol ]};  // ى‎ ◌ْ     ‹
+    key <AB03> {  [        Arabic_tah,            Arabic_zah,               NoSymbol,            NoSymbol ]};  // ط‎ ظ
+    key <AB04> {  [         Arabic_ra,           Arabic_zain,             Arabic_jeh,            NoSymbol ]};  // ر‎ ز     ‎‎ژ
+    key <AB05> {  [       Arabic_khah,        guillemotright,               NoSymbol,            NoSymbol ]};  // خ‎ ‎»‎
+    key <AB06> {  [        Arabic_hah,         guillemotleft,Arabic_superscript_alef,            NoSymbol ]};  // ح‎ «‎     ‎◌ٰ‎ 
+    key <AB07> {  [       Arabic_jeem,              ellipsis,           Arabic_tcheh,            NoSymbol ]};  // ج‎ …     ‎چ
+    key <AB08> {  [      Arabic_comma,               greater,               NoSymbol,            NoSymbol ]};  // ‎‎، >   ‎
+    key <AB09> {  [            period,                  less,               NoSymbol,            NoSymbol ]};  // . <    ‎
+    key <AB10> {  [             slash,  Arabic_question_mark,                  U066D,               U200C ]};  // /‎ ‎؟‎     ‎٭‎ ZWNJ
+
+    include       "level3(ralt_switch)"
+
+};
