@@ -8,6 +8,7 @@
 ** Why not use the default Arabic layout
 
    I really dislike default (PC) arabic layout. I feel the layout suffers from several design issues including:
+
 *** Dedicated key for 'لا'.
 
 This is a remnant of early arabic typewriters where each shape of letter needed its own key. But since computers reshape the letters as you type, there is no need to give letter combinations their own key. There is nothing special about the 'لا'. As far as two letter combinations 'ال' is roughly 8 times more common and other combinations like 'ية' occurs just as frequently.
@@ -44,8 +45,26 @@ There are other layouts that remove the unnecessary 'لا' like (mac) and (OLPC)
 * How to install
 
 ** Linux
-COMING SOON
-
+1. Download =ergoarabic_xkb= file
+   #+begin_src sh
+wget https://raw.githubusercontent.com/darkstego/ergoarabic/main/ergoarabic_xkb
+   #+end_src
+2. Append =/usr/share/X11/xkb/symbols/ara= with =ergoarabic_xkb=
+    #+begin_src sh
+cat ergoarabic_xkb | sudo tee -a /usr/share/X11/xkb/symbols/ara 
+    #+end_src
+3. Edit =/usr/share/X11/xkb/rules/evdev.xml= and add:
+   #+begin_src xml
+	<variant>
+          <configItem>
+            <name>ergo_arabic</name>
+            <description>Arabic (Ergoarabic)</description>
+          </configItem>
+        </variant>
+   #+end_src
+   This should be added in the Arabic section.
+4. Restart and layout should appear in the Desktop's layout selector
+   
 ** Windows
 
 *** Easy Method
