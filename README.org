@@ -2,21 +2,24 @@
 
   This project provides a more ergonomic and sensible Arabic keyboard Layout.
 
+  #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[https://github.com/darkstego/ergoarabic/blob/media/ergoarabic.png]]
+
 ** Why not use the default Arabic layout
 
    I really dislike default (PC) arabic layout. I feel the layout suffers from several design issues including:
-   - Dedicated key for 'لا'.
+*** Dedicated key for 'لا'.
 
 This is a remnant of early arabic typewriters where each shape of letter needed its own key. But since computers reshape the letters as you type, there is no need to give letter combinations their own key. There is nothing special about the 'لا'. As far as two letter combinations 'ال' is roughly 8 times more common and other combinations like 'ية' occurs just as frequently.
 
 There are other layouts that remove the unnecessary 'لا' like (mac) and (OLPC). But they suffer from some of the other issues that
 
-- Poor Ergonomics
+*** Poor Ergonomics
 
   In the normal Arabic layout, many keys are too far from the center of the keyboard. Common letters like 'د' and 'ج' are at outer edge of the typing area and 'ذ' is in its own timezone. This requires a lot of pinkie stretching while typing that increases the risk of RSI.
 
 
-- Symbol shuffling
+*** Symbol shuffling
 
   A lot of symbols like brackets, grave, tilde are shuffled around from their usual positions in the Arabic keyboard. This makes it unnecessarily more difficult to learn the keyboard layout if you already know the normal English QWERTY layout.
 
@@ -41,14 +44,17 @@ There are other layouts that remove the unnecessary 'لا' like (mac) and (OLPC)
 * How to install
 
 ** Linux
-
-
+COMING SOON
 
 ** Windows
 
 *** Easy Method
 
+    Download the [[https://github.com/darkstego/ergoarabic/releases/download/untagged-cc5f069eca7b9acad560/ergoarab.zip][zip file]] for the installer. Unzip and run the setup file. If the layout doesn't appear or cannot be selected then you will need to restart your PC.
+
+    
 *** Manual Method
-    Install 
+    COMING SOON
    
 ** Mac
+COMING SOON
