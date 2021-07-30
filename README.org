@@ -50,7 +50,7 @@ COMING SOON
 
 *** Easy Method
 
-    Download the [[https://github.com/darkstego/ergoarabic/releases/download/untagged-cc5f069eca7b9acad560/ergoarab.zip][zip file]] for the installer. Unzip and run the setup file. If the layout doesn't appear or cannot be selected then you will need to restart your PC.
+    Download the [[https://github.com/darkstego/ergoarabic/releases/download/v0.5/ergoarab.zip][zip file]] for the installer. Unzip and run the setup file. If the layout doesn't appear or cannot be selected then you will need to restart your PC.
 
     
 *** Manual Method
