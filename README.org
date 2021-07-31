@@ -7,9 +7,9 @@
 
 ** Why not use the default Arabic layout
 
-   I really dislike default (PC) arabic layout. I feel the layout suffers from several design issues including:
+I dislike the default (PC) arabic layout. I feel the layout suffers from several design issues including:
 
-*** Dedicated key for 'لا'.
+*** Wasting a dedicated key for 'لا'.
 
 This is a remnant of early arabic typewriters where each shape of letter needed its own key. But since computers reshape the letters as you type, there is no need to give letter combinations their own key. There is nothing special about the 'لا'. As far as two letter combinations 'ال' is roughly 8 times more common and other combinations like 'ية' occurs just as frequently.
 
@@ -17,12 +17,12 @@ There are other layouts that remove the unnecessary 'لا' like (mac) and (OLPC)
 
 *** Poor Ergonomics
 
-  In the normal Arabic layout, many keys are too far from the center of the keyboard. Common letters like 'د' and 'ج' are at outer edge of the typing area and 'ذ' is in its own timezone. This requires a lot of pinkie stretching while typing that increases the risk of RSI.
+In the normal Arabic layout, many keys are too far from the center of the keyboard. Common letters like 'د' and 'ج' are at outer edge of the typing area and 'ذ' is in its own timezone. This requires a lot of pinkie stretching while typing that increases the risk of RSI.
 
 
 *** Symbol shuffling
 
-  A lot of symbols like brackets, grave, tilde are shuffled around from their usual positions in the Arabic keyboard. This makes it unnecessarily more difficult to learn the keyboard layout if you already know the normal English QWERTY layout.
+A lot of symbols like brackets, grave, tilde are shuffled around from their usual positions in the Arabic keyboard. This makes it unnecessarily more difficult to learn the keyboard layout if you already know the normal English QWERTY layout.
 
 
 
@@ -53,23 +53,22 @@ wget https://raw.githubusercontent.com/darkstego/ergoarabic/main/ergoarabic_xkb
     #+begin_src sh
 cat ergoarabic_xkb | sudo tee -a /usr/share/X11/xkb/symbols/ara 
     #+end_src
-3. Edit =/usr/share/X11/xkb/rules/evdev.xml= and add:
-   #+begin_src xml
-	<variant>
-          <configItem>
-            <name>ergo_arabic</name>
-            <description>Arabic (Ergoarabic)</description>
-          </configItem>
-        </variant>
+3. Download =ergoarabic_evdev.xml= file
+   #+begin_src sh
+wget https://raw.githubusercontent.com/darkstego/ergoarabic/main/ergoarabic_evdev.xml
    #+end_src
-   This should be added in the Arabic section.
-4. Restart and layout should appear in the Desktop's layout selector
+4. Insert contents of =ergoarabic_evdev.xml= to  =/usr/share/X11/xkb/rules/evdev.xml= in the Arabic section add:
+   #+begin_src  sh
+sudo sed -i.backup '/Arabic (Macintosh)/,/variant/!b;/variant/r ergoarabic_evdev.xml' /usr/share/X11/xkb/rules/evdev.xml 
+   #+end_src
+5. Add Layout using Desktop Environment's layout Selector (Restart might be required if layout doesn't appear on the list)
+
    
 ** Windows
 
 *** Easy Method
 
-    Download the [[https://github.com/darkstego/ergoarabic/releases/download/v0.5/ergoarab.zip][zip file]] for the installer. Unzip and run the setup file. If the layout doesn't appear or cannot be selected then you will need to restart your PC.
+Download the [[https://github.com/darkstego/ergoarabic/releases/download/v0.5/ergoarab.zip][zip file]] for the installer. Unzip and run the setup file. If the layout doesn't appear or cannot be selected then you will need to restart your PC.
 
     
 *** Manual Method
