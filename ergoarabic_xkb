@@ -1,6 +1,6 @@
 
 
-xkb_symbols "ergo_arabic" {
+xkb_symbols "ergoarabic" {
     name[Group1]= "Arabic (ErgoArabic)";
     key.type[Group1]="FOUR_LEVEL";
 
