@@ -1,4 +1,4 @@
-* ErgoArabic Keyboard Layout
+* ErgoArabic: Improved Arabic Keyboard Layout
 
   This project provides a more ergonomic and sensible Arabic keyboard Layout.
 
