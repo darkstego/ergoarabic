@@ -67,9 +67,10 @@ sudo sed -i.backup '/Arabic (Macintosh)/,/variant/!b;/variant/r ergoarabic_evdev
 ** Windows
 
 *** Easy Method
+1. Download and extract [[https://github.com/darkstego/ergoarabic/releases/download/v1.0/ergoarabic-win.zip][ergoarabic-win]].
+2. Run the Setup File.
 
-Download the [[https://github.com/darkstego/ergoarabic/releases/download/v0.5/ergoarab.zip][zip file]] for the installer. Unzip and run the setup file. If the layout doesn't appear or cannot be selected then you will need to restart your PC.
-
+If the layout doesn't show updoesn't show up, try restarting
     
 *** Manual Method
 1. [[https://www.microsoft.com/en-us/download/details.aspx?id=102134][Download]], install and run Microsoft Keyboard Layout Creator.
@@ -79,21 +80,22 @@ Download the [[https://github.com/darkstego/ergoarabic/releases/download/v0.5/er
 5. Got to Project -> Build DLL and Setup Package.
 6. Open newly created package folder and run Setup.
 7. If keyboard layout isn't showing up after install, restart the PC.
-   
+
    
 ** Mac
 *** Easy Method
-Comming Soon, once I have access to a Mac.
-   
+1. Download and Extract [[https://github.com/darkstego/ergoarabic/releases/download/v1.0/ergoarabic-macos.zip][ergoarabic-macos]].
+2. Move extracted Bundle to =~/Library/Keyboard Layouts/= or =/Library/Keyboard Layouts= to make layout available only to user or globably, respectively.
+3. Select New Layout from System Preferences > Keyboard > Input Sources.
+
 *** Manual Method
 1. [[https://software.sil.org/ukelele/][Download]], install and run Ukelele
 2. Go to File -> New Based On.
 3. Select Arabic.
 4. Replace All Characters with those found [[http://www.keyboard-layout-editor.com/##@@=~%0A%60&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=*%0A8&=)%0A9&=(%0A0&=%2F_%0A-&=+%0A%2F=&_w:2%3B&=Backspace%3B&@_w:1.5%3B&=Tab&_f:6%3B&=%D8%B0%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%AF&=%D8%B6%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%B5&=%D9%8F%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%AB&=%D9%8C%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%82&=%D9%91%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%81&=%D8%A5%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%A1&=%D8%BA%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%B9&=%C3%B7%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%87&=%D8%A4%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%88&=%D8%9B%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%A9&_f:3%3B&=%7D%0A%5D&=%7B%0A%5B&_w:1.5%3B&=%7C%0A%5C%3B&@_w:1.75%3B&=Caps%20Lock&_f:6%3B&=%D9%90%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%B4&=%D9%8D%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%B3&=%D9%8E%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%8A&=%D9%8B%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%A8&=%D8%A2%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%84&=%D8%A3%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%A7&=%D9%80%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%AA&=%C3%97%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%86&=,%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%85&=%2F:%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%83&=%22%0A'&_f:3&w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&_a:5&f:6%3B&=%0A%D8%A6&_a:4%3B&=%D9%92%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D9%89&=%D8%B8%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%B7&=%D8%B2%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%D8%B1&_a:5%3B&=%C2%AB%0A%D8%AE&=%C2%BB%0A%D8%AD&=%E2%80%A6%0A%D8%AC&_a:4%3B&=%3E%0A%D8%8C&=%3C%0A.&=%D8%9F%0A%2F%2F&_f:3&w:2.75%3B&=Shift%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:7&w:6.25%3B&=&_a:4&w:1.25%3B&=Alt&_w:1.25%3B&=Win&_w:1.25%3B&=Menu&_w:1.25%3B&=Ctrl][here]] for normal and shift-key sets.
-5. Go to File -> Save As, and Select filename to save layout.
-6. Copy saved File to =~/Library/Keyboard Layouts/= or =/Library/Keyboard Layouts= to make layout available only to user or globably, respectively.
-7. Restart Computer.
-8. Select New Layout from System Preferences > Keyboard > Input Sources.     
+5. Go to File -> Save As, Save as Bundle.
+6. In Finder, Click on the newly created bundle to install the layout.
+7. Select New Layout from System Preferences > Keyboard > Input Sources.
    
    
    
