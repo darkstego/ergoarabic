@@ -51,9 +51,9 @@ xkb_symbols "ergoarabic" {
     key <AB02> {  [Arabic_alefmaksura,          Arabic_sukun,                  U2039,            NoSymbol ]};  // ى‎ ◌ْ     ‹
     key <AB03> {  [        Arabic_tah,            Arabic_zah,               NoSymbol,            NoSymbol ]};  // ط‎ ظ
     key <AB04> {  [         Arabic_ra,           Arabic_zain,             Arabic_jeh,            NoSymbol ]};  // ر‎ ز     ‎‎ژ
-    key <AB05> {  [       Arabic_khah,        guillemotright,               NoSymbol,            NoSymbol ]};  // خ‎ ‎»‎
-    key <AB06> {  [        Arabic_hah,         guillemotleft,Arabic_superscript_alef,            NoSymbol ]};  // ح‎ «‎     ‎◌ٰ‎ 
-    key <AB07> {  [       Arabic_jeem,              ellipsis,           Arabic_tcheh,            NoSymbol ]};  // ج‎ …     ‎چ
+    key <AB05> {  [       Arabic_khah,              ellipsis,               NoSymbol,            NoSymbol ]};  // خ‎ ‎…‎
+    key <AB06> {  [        Arabic_hah,        guillemotright,Arabic_superscript_alef,            NoSymbol ]};  // ح‎ ‎»     ‎◌ٰ‎ 
+    key <AB07> {  [       Arabic_jeem,         guillemotleft,           Arabic_tcheh,            NoSymbol ]};  // ج‎ «     ‎چ
     key <AB08> {  [      Arabic_comma,               greater,               NoSymbol,            NoSymbol ]};  // ‎‎، >   ‎
     key <AB09> {  [            period,                  less,               NoSymbol,            NoSymbol ]};  // . <    ‎
     key <AB10> {  [             slash,  Arabic_question_mark,                  U066D,               U200C ]};  // /‎ ‎؟‎     ‎٭‎ ZWNJ
