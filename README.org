@@ -3,7 +3,7 @@
   This project provides a more ergonomic and sensible Arabic keyboard Layout.
 
   #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[https://github.com/darkstego/ergoarabic/blob/media/ergoarabic2.png]]
+[[https://github.com/darkstego/ergoarabic/blob/media/ergoarabic.png]]
 
 ** Why not use the default Arabic layout
 
