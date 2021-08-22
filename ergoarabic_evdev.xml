@@ -1,6 +1,6 @@
 	<variant>
          <configItem>
-           <name>ergoarabic</name>
+           <name>ergo</name>
            <description>Arabic (Ergoarabic)</description>
          </configItem>
        </variant>
