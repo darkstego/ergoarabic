@@ -47,6 +47,12 @@ A lot of symbols like brackets, grave, tilde are shuffled around from their usua
 ** Linux
 *** Easy Method
     If Your System has =xkeyboard-config= version 2.34 or later you don't have to do anything as ergoarabic is included. Just select it as a variant under the Arabic language layout. You may need to enable the option to expose extra keyboard layouts for it to show up depending on your Desktop Environment.
+
+In Gnome, if the variant does not show up on settings you can run the following to make it appear.
+   #+begin_src sh
+gsettings set org.gnome.desktop.input-sources show-all-sources true
+   #+end_src
+
 *** Manual Method
 1. Download =ergoarabic_xkb= file
    #+begin_src sh
